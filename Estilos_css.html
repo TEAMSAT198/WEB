@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Servicios contables</title>
+	<style >
+		/*Estilos generales de cuerpo*/
+				body{
+			background-color: #F0F8FF;
+			font-family: arial, sans-serif;
+			margin: 0;
+			padding: 0; 
+		}
+		/*estilo de encabezado*/
+		header{
+			background-color: #003366;
+			color: white;
+			padding: 20px;
+			text-align: :center;
+		}
+		/*Enlaces de navegacion*/
+		nav a {
+			color: white;
+			margin: 0 15px;
+			text-decoration: none;
+
+		}
+		/*contenido principal*/
+		main{
+			padding: 20px;
+		}
+		/*estilo subtitulos*/
+		h2{
+			color: #003366;
+		}
+		/*Estilo de tabla*/
+		table{
+			width: 100%
+			background-color: white;
+			border-collapse: collapse;
+			margin-top: 10px;
+		}
+		th,td{
+			border: 1px solid #999;
+			padding: 8px;
+			text-align: center;
+		}
+		/*Estilo para formularios*/
+		input, select, textarea{
+			width: 100%
+			padding: 8px;
+			margin-bottom:10px; 
+		}
+		input[type= "submit"]{
+			background-color: #003366;
+			color: white;
+			border: none;
+			cursor: pointer;
+			padding: 10px 20px;
+		}
+		/*Estilo de pie de pagina*/
+		footer{
+			background-color: #003366;
+			color: white
+			text-align:center;
+			padding: 10px;
+			margin-top: 20px;
+
+		}
+		/*imagen centrada*/
+		img{
+			display: block;
+			margin: 10px auto;
+		}
+		/*Estilo para enlaces*/
+		link{
+			margin-bottom: 20px;
+			display: block;
+			text-align: center;
+		}
+	</style>
+	
+
+</head>
+<body>
+<header>
+	<h1> Servicios Contables</h1>
+	<nav>
+		<a href="#Servicios">servicios</a>
+		<a href="#precios">precios</a>
+		<a href="formulario">contacto</a>
+	</nav>
+</header>
+<main>
+	<p>Desarrollado por: Pablo, Lis y Kirsy</p>
+	<img src="Imgs/Esnupiiii.jpg" alt="Oficina contable" width="300">
+	<a class="link" href="https://facebook.com" target="_blank" rcl="noopener noreferrer">Visita nuestra pagina de facebook</a>
+	<h2 id="servicios">Servicios que ofrecemos</h2>
+	<ul>
+		<li>Declaracion de impuestos</li>
+		<li>Asesoria financiera</li>
+		<li>Control de inventarios</li>
+	</ul>
+	<h2 id="precios">Precios</h2>
+	<table>
+		<tr>
+			<th>Servicio</th>
+			<th>Precio</th>
+			<th>Duracion</th>
+		</tr>
+		<tr>
+			<td>Declaracion Mensual</td>
+			<td>Q200</td>
+			<td>30 min</td>
+		</tr>
+		<tr>
+			<td>Auditoria basica</td>
+			<td>Q500</td>
+			<td>2 horas</td>
+		</tr>
+	</table>
+		<h2 id=" formulario">Contactanos</h2>
+		<form>
+			<label>Nombre:</label>
+			<input type="email">
+
+		<label>tipo de servicios:</label>
+		<select>
+		<option>Declaracion</option>	
+		<option>Asesoria</option>
+		<option>Auditoria</option>
+	</select>
+	</table>
+	<input type="submit" value="enviar">
+</form>
+</main>
+		<footer>
+			<p>&copy; 2025 Servicios contables XYZ 
+			-Todos los derechos reservados</p>
+		</footer>
+</body>
+</html>
